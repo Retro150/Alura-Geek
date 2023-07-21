@@ -1,0 +1,55 @@
+.nosotros{
+    width: 100%;
+    display: flex;
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    padding: 23px;
+    
+}
+.nosotros-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.nosotros-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 23px;
+}
+.nosotros-mas{
+    width: 49%;
+    font-size: 1.5rem;
+    padding: 2em;
+}
+.nosotros-list{
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 12px;
+}
+.nosotros-contacto{
+    width: 60%;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.contacto-nombre{
+    margin-bottom: 1em;
+    display: flex;
+    width: 60%;
+}
+.contacto-mess{
+    margin-bottom: 1em;
+    display: flex;
+    width: 75%;
+}
+.contacto-enviar{
+    width: 30%;
+    font-style: italic;
+}
+.footer{
+    display: flex;
+    font-size: 0.5em;
+    font-style: italic;
+    padding: 2rem;
+}
