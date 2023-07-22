@@ -1,0 +1,53 @@
+.productos{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0%;
+    display: flex;
+    font-style: italic;
+    font-size: 12px;
+}
+.producto-titulo{
+    padding: 23px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+.productos-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 5%;
+}
+.consolas, .juegos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+   
+    
+}
+.items{
+    width: 15%;
+    height: auto;
+    overflow: hidden;
+    transition: width 0.3s ease;
+    float: left;
+    
+}
+.items:hover{
+    width: 40%;
+}
+.items img{
+    width: 80%;
+    height: auto;
+}
+.items h1, .items h2, .items a{
+    display: none;
+    margin: 10px;
+    color: white;
+}
+.items:hover h1, .items:hover h2, .items:hover a{
+    display: block;
+    color: black;
+}

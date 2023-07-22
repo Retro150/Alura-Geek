@@ -1,0 +1,110 @@
+@media screen and (max-width: 480px) {
+    .caja-header{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .caja-titulo{
+        width: 22%;
+        padding: 2px;
+    }
+    .search-container{
+        width: 80%;
+        height: 40%;
+    }
+    .search-container input{
+        width: 12%;
+    }
+    .banner-container h2, .banner-container p{
+        width: 40%;
+        color: black;
+    }
+    .banner-container button{
+        background-color: transparent;
+    }
+    .login-header{
+        width: 23%;
+        display: flex;
+        flex-direction: row;
+    }
+    .productos{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .productos-container{
+        width: 90%;
+      
+    }
+    .consolas, .juegos{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .items{
+        width: 100%;
+    }
+    .items img{
+        width: 80%;
+        display: flex;
+        padding: 1em;
+    }
+
+    .nosotros{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+    }
+    .nosotros-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nosotros-mas{
+        font-size: 1em;
+        width: 100%;   
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 0px 43px 4px 0px;
+    }
+    .nosotros-contacto{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    
+    .nosotros{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+    }
+    .nosotros-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nosotros-mas{
+        font-size: 1em;
+        width: 100%;   
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 0px 43px 4px 0px;
+    }
+    .nosotros-contacto{
+        width: 100%;
+    }
+
+}
