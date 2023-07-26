@@ -1,0 +1,190 @@
+@media screen and (max-width: 480px) {
+
+    .caja-header{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .logo{
+        width: 35%;
+    }
+    .caja-titulo{
+        width: 22%;
+        padding: 2px;
+    }
+    .search-container{
+        width: 65%;
+    }
+    .search-container input{
+        width: 12%;
+    }
+    .banner-container h2, .banner-container p{
+        width: 40%;
+        color: black;
+    }
+    .banner-container button{
+        background-color: transparent;
+    }
+
+    .productos{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .prod-container{
+        width: 100%;
+        display: flex;
+        margin: 12px;
+    }
+    .prod-titulos{
+        width: 90%;
+    }
+    .titulo{
+        width: 80%;
+        font-size: 81%;
+    }
+    .prod-boton{
+        width: 30%;
+        font-size: 81%;
+    }
+    .prod-items{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .items{
+        width: 37%;
+        margin: 12px 33px 0px 0px;
+    }
+    
+    .nosotros{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+    }
+    .nosotros-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .nosotros-mas{
+        font-size: 1em;
+        width: 100%;   
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 0px 43px 4px 0px;
+    }
+    .nosotros-mas{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .nosotros-contacto{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
+
+    .caja-header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .logo{
+        width: 13%;
+    }
+    .caja-titulo{
+        width: 22%;
+        padding: 2px;
+    }
+    .search-container{
+        width: 33%;
+        border: 30px;
+    }
+    .search-container input{
+        width: 12%;
+    }
+    .banner-container h2, .banner-container p{
+        width: 40%;
+        color: black;
+    }
+    .banner-container button{
+        background-color: transparent;
+    }
+
+    .productos{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+    }
+
+    .prod-container{
+        width: 100%;
+        display: flex;
+        margin: 30px;
+    }
+    .prod-titulos{
+        width: 90%;
+    }
+    .titulo{
+        width: 80%;
+        font-size: 81%;
+    }
+    .prod-boton{
+        width: 16%;
+        font-size: 81%;
+    }
+    .prod-items{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .items{
+        width: 23%;
+        margin: 12px 21px 0px 0px;
+    }
+    
+    .nosotros{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: self-start;
+    }
+    .nosotros-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+    .nosotros-mas{
+        font-size: 1em;
+        width: 100%;   
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding: 0px 43px 4px 0px;
+    }
+    .nosotros-mas{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .nosotros-contacto{
+        width: 100%;
+    }
+}
