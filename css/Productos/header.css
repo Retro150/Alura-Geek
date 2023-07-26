@@ -23,7 +23,7 @@ body, html {
       align-items: center;
       width: 300px;
       border: 1px solid #c44e4e;
-      border-radius: 5px;
+      border: 30px;
       overflow: hidden;
     }
     
