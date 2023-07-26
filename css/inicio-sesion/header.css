@@ -27,6 +27,7 @@ body, html {
     border: 1px solid #c44e4e;
     border-radius: 5px;
     overflow: hidden;
+    border: 30px;
   }
   
   .search-container input[type="text"] {
