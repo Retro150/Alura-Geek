@@ -1,0 +1,52 @@
+.agregar{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    background: url(/img/galxia.jpg) center;
+    background-size: cover;
+}
+.agregar-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 12rem 0px 12rem;
+    align-items: center;
+}
+.agre-titulo{
+    display: flex;
+    color: beige;
+}
+.agre-items{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+}
+.agre-items input{
+    height: 2rem;
+}
+.items{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.agre-items button{
+    width: 50%;
+    height: 2rem;
+    background-color: blue;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.footer{
+    display: flex;
+    font-size: 0.5em;
+    font-style: italic;
+    padding: 2rem;
+    justify-content: center;
+}

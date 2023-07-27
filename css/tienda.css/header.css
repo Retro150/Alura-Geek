@@ -60,6 +60,10 @@ header{
     font-size: 15px;
     font-style: italic;
     display: flex;
-    padding: 3px 132px 6px 5px;
-    
+    padding: 3px 132px 6px 5px;    
+    cursor: progress;
+}
+.login-header a{
+  text-decoration: none;
+    list-style: none;
 }
