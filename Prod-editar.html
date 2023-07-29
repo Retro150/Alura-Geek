@@ -32,23 +32,30 @@
     <section class="agregar">
         <div class="agregar-container">
             <h1 class="agre-titulo"><strong>Agregar Nuevo Producto:</strong></h1>
-            <div class="agre-items">
+            <div class="agre-items" data-form>
                 <div class="items">
                     <a>Url de la Imagen</a>
-                    <input type="url" placeholder="Url" required>
+                    <input type="url" placeholder="Url" 
+                    required
+                    data-url>
+                </div>
+                <div class="items">
+                    <a>Nombre del Producto</a>
+                    <input type="text" placeholder="Nombre" 
+                    required
+                    data-nombre>
                 </div>
                <div class="items">
                     <a>Categoria</a>
-                    <input type="text" placeholder="Categoria" required>
-                </div>
-                
-                <div class="items">
-                    <a>Nombre del Producto</a>
-                    <input type="text" placeholder="Nombre" required>
+                    <input type="text" placeholder="Categoria" 
+                    required
+                    data-categoria>
                 </div>
                 <div class="items">
                     <a>Precio</a>
-                    <input type="text" placeholder="$" required>
+                    <input type="text" placeholder="$" 
+                    required
+                    data-precio>
                 </div>
                 <button class="item">Agregar Producto</button>
             </div>
@@ -91,6 +98,11 @@
         </div>
 
     </section>
+    <script src="controllers/crear-producto-controllers.js"></script>
+    <script src="controllers/producto--contollers.js"></script>
+    <script src="servicios/producto-servicios.js"></script>
+    <script src="db.json"></script>
+
 </body>
    
 <footer>

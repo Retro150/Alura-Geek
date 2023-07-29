@@ -1,0 +1,11 @@
+{
+    "Producto": [
+    
+        {
+            "imagenUrl": "https://i.dell.com/is/image/DellContent//content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/15-3520/media-gallery/peripherals_latop_latitude_3520_gallery_3.psd?fmt=pjpg&pscan=auto&scl=1&wid=3339&hei=2291&qlt=100,1&resMode=sharp2&size=3339,2291&chrss=full&imwidth=5000" ,
+            "Nombre": "laptop",            
+            "Categoria": "Consola",
+            "Precio" : "100"
+        }
+    ]
+}
