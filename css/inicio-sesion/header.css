@@ -4,6 +4,7 @@ body, html {
   padding: 0;
   height: 100%;
   background-color: rgb(208, 213, 208);
+  overflow-x: hidden;
 }
 
 .caja-header{

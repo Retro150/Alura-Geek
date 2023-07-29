@@ -1,7 +1,7 @@
 .banner{
     width: 116%;
-    height: 60vh !important;
-    background: url(/img/CJ.png) center;
+    height: 70vh !important;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/557/476/desktop-wallpaper-gta-san-andreas-cj-gta-san-andreas.jpg);
     background-size: cover;
     padding: 1rem;
 }
