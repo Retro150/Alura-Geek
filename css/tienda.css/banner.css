@@ -3,6 +3,7 @@
     height: 70vh !important;
     background-image: url(https://wallpapercave.com/wp/wp4318364.png);
     background-size: cover;
+    background-position: center;
     padding: 1rem;
 }
 .banner-container{
